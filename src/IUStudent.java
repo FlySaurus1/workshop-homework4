@@ -14,4 +14,9 @@ public class IUStudent extends Student{
                 ", lastExamMark=" + lastExamMark +
                 '}';
     }
+
+    @Override
+    public void writeExam(){
+        System.out.println("That student is writing an exam right now.");
+    }
 }

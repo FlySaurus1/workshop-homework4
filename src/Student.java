@@ -4,6 +4,7 @@ public abstract class Student {
     protected String patronymic;
     protected String course;
     protected int lastExamMark;
+    protected boolean Exam;
 
     public Student(String name, String surname, String patronymic, String course, int lastExamMark){
         this.name = name;
@@ -13,7 +14,5 @@ public abstract class Student {
         this.lastExamMark = lastExamMark;
     }
 
-    public void writeExam(){
-        
-    }
+    public abstract void writeExam();
 }
